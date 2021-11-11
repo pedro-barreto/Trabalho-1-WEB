@@ -162,7 +162,7 @@ button{
     width: 70%;
     margin: 25px 0px 10px;
     border-radius: 8px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 700;
 
 }
@@ -170,5 +170,7 @@ button{
 button:hover{
 
     transform: scale(0.9);
+    background-image: linear-gradient(to right, rgba(45, 22, 129, 0.801),rgba(13, 63, 202, 0.884));
+    color: white;
 
 }
