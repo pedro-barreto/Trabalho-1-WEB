@@ -1,0 +1,24 @@
+.validar-campo{
+
+    animation: campo-vazio 100ms linear;
+    animation-iteration-count: 2;
+
+}
+
+@keyframes campo-vazio {
+
+    0%,100%{
+
+        transform: translateX(0);
+
+    }50%{
+
+        transform: translateX(-10%);
+
+    }75%{
+
+        transform: translateX(10%);
+
+    }
+    
+}

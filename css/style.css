@@ -50,8 +50,7 @@ footer{
 
     background-color: rgb(47, 65, 119);
     color: white;
-    padding: 50px 0px 100px;
-    /*rebeccapurp*/
+    padding: 50px 0px 100px 0px;
 
 }
 
@@ -65,12 +64,26 @@ footer h1{
 
 form{
 
-    width: 30%;
+    width: 40%;
     background-color: slateblue;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
     margin: auto;
+    max-width: 800px;
     padding: 20px;
+
+}
+
+label{
+
+    font-size: 1.1em;
+
+}
+
+form input, textarea, button{
+
+    border: solid 2px black;
+    margin-top: 5px;
 
 }
 
@@ -136,6 +149,8 @@ button{
     width: 70%;
     margin: 25px 0px 10px;
     border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 700;
 
 }
 
@@ -143,29 +158,4 @@ button:hover{
 
     transform: scale(0.9);
 
-}
-
-.validar-campo{
-
-    animation: campo-vazio 100ms linear;
-    animation-iteration-count: 2;
-
-}
-
-@keyframes campo-vazio {
-
-    0%,100%{
-
-        transform: translateX(0);
-
-    }50%{
-
-        transform: translateX(-10%);
-
-    }75%{
-
-        transform: translateX(10%);
-
-    }
-    
 }

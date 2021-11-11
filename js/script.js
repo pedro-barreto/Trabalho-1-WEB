@@ -33,10 +33,6 @@ function enviar() {
 
         });
 
-    }else{
-
-        formulario.classList.add('form-hide');
-
     }
 
 }
