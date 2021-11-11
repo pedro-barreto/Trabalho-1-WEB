@@ -1,0 +1,171 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    height: 100vh;
+    background-color: cornflowerblue;
+
+}
+
+#section1{
+
+    height: 100vh;
+    background-color: darkkhaki;
+
+}
+
+#section2{
+
+    height: 100vh;
+    background-color: darkseagreen;
+
+}
+
+#section3{
+
+    height: 100vh;
+    background-color: darkslategray;
+
+}
+
+#section4{
+
+    height: 100vh;
+    background-color: plum;
+
+}
+
+footer{
+
+    background-color: rgb(47, 65, 119);
+    color: white;
+    padding: 50px 0px 100px;
+    /*rebeccapurp*/
+
+}
+
+footer h1{
+
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2em;
+
+}
+
+form{
+
+    width: 30%;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    margin: auto;
+    padding: 20px;
+
+}
+
+.lado-a-lado{
+
+    display: flex;
+
+}
+
+#nome,#sobrenome{
+
+    width: 50%;
+
+}
+
+input, #cmpDescricao{
+
+    width: 100%;
+
+}
+
+#nome{
+
+    margin-right: 10px;
+
+}
+
+#sobrenome{
+
+    margin-left: 10px;
+
+}
+
+#telefone,#email,#descricao{
+
+    margin: 10px 0px;
+
+}
+
+textarea{
+
+    resize: none;
+    border-radius: 5px;
+
+}
+
+input{
+
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+#botao{
+
+    text-align: center;
+
+}
+
+button{
+
+    height: 50px;
+    width: 70%;
+    margin: 25px 0px 10px;
+    border-radius: 8px;
+
+}
+
+button:hover{
+
+    transform: scale(0.9);
+
+}
+
+.validar-campo{
+
+    animation: campo-vazio 100ms linear;
+    animation-iteration-count: 2;
+
+}
+
+@keyframes campo-vazio {
+
+    0%,100%{
+
+        transform: translateX(0);
+
+    }50%{
+
+        transform: translateX(-10%);
+
+    }75%{
+
+        transform: translateX(10%);
+
+    }
+    
+}

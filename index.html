@@ -14,21 +14,71 @@
 
     <header>
 
-        <h1>Trabalho 1 de WEB</h1>
+        <h1 style="text-align: center;">Tudo ilustrativo para ter uma noção</h1>
 
     </header>
 
     <main>
 
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="section1"></section>
+        <section id="section2"></section>
+        <section id="section3"></section>
+        <section id="section4"></section>
 
     </main>
 
     <footer>
 
+        <h1>Fale conosco</h1>
+
+        <form action="#">
+
+            <div class="lado-a-lado">
+
+                <div id="nome">
+
+                    <label for="cmpNome">Nome</label>
+                    <input type="text" name="nome" id="cmpNome" class="campo" required>
+    
+                </div>
+    
+                <div id="sobrenome">
+    
+                    <label for="cmpSobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="cmpSobrenome" class="campo" required>
+    
+                </div>
+
+            </div> 
+
+            <div id="telefone">
+
+                <label for="cmpTelefone">Telefone</label>
+                <input type="number" name="telefone" id="cmpTelefone" class="campo" required>
+
+            </div>
+
+            <div id="email">
+
+                <label for="cmpEmail">E-mail</label>
+                <input type="email" name="email" id="cmpEmail" class="campo" required>
+
+            </div>
+
+            <div id="descricao">
+
+                <label for="cmpDescricao">Assunto</label>
+                <textarea name="descricao" id="cmpDescricao" rows="10" class="campo" required></textarea>
+
+            </div>
+
+            <div id="botao">
+
+                <button type="submit" onclick="enviar()">Enviar</button>
+
+            </div>
+
+        </form>
 
     </footer>
 
