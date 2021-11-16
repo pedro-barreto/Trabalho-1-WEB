@@ -60,7 +60,8 @@ img{
 
 #section2 .imagem{
 
-    max-height: 250px; 
+    max-height: 250px;
+    margin: auto;
 
 }
 
@@ -71,6 +72,7 @@ img{
     max-width: 1500px;
     margin: auto;
     color: #5377A6;
+    
 
 }
 
