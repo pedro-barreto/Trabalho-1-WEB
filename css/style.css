@@ -196,6 +196,7 @@ img{
 #section3 .card input{
 
     font-size: 1.1em;
+    font-weight: 900;
     height: 50px;
     width: 90%;
     border-radius: 7px;
@@ -223,7 +224,7 @@ footer h1{
     text-align: center;
     padding-bottom: 50px;
     font-size: 3em;
-    color: #032859;
+    color: #89BAD9;
     font-family: 'Fredoka One', cursive, sans-serif;
 
 }
@@ -232,7 +233,6 @@ form{
 
     width: 40%;
     background-color: #6997BF;
-    color: #032859;
     border-radius: 10px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.521);
     margin: auto;
@@ -245,6 +245,8 @@ form{
 label{
 
     font-size: 1.1em;
+    color: #032859;
+    font-weight: 900;
 
 }
 
@@ -252,7 +254,7 @@ form input, textarea, button{
 
     border: solid 2px black;
     margin-top: 5px;
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 255, 255, 0.705);
 
 }
 
@@ -320,11 +322,14 @@ button{
     border-radius: 8px;
     font-size: 1.2em;
     font-weight: 700;
+    background-color: white;
 
 }
 
 button:hover{
 
     transform: scale(0.9);
+    background-color: #5377A6;
+    color: white;
 
 }

@@ -122,6 +122,12 @@
 
     }
 
+    #section3 .cards{
+
+        margin: auto 20px;
+
+    }
+
 }
 
 @media screen and (max-width:1000px){
