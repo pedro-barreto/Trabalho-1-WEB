@@ -55,7 +55,7 @@ img{
 
 }
 
-.esquerda{
+/*.esquerda{
 
     opacity: 0;
 
@@ -79,7 +79,7 @@ img{
     animation: direita-para-esquerda 700ms ease-out;
     animation-fill-mode: forwards;
 
-}
+}*/
 
 .conteudo{
 
