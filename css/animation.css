@@ -22,3 +22,35 @@
     }
     
 }
+
+@keyframes esquerda-para-direita {
+    
+    from{
+
+        opacity: 0;
+        transform: translateX(-100%);
+
+    }to{
+
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+
+}
+
+@keyframes direita-para-esquerda {
+    
+    from{
+        
+        opacity: 0;
+        transform: translateX(100%);
+
+    }to{
+
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+
+}

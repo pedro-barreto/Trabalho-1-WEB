@@ -1,7 +1,7 @@
 *{
 
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 
 }
 
@@ -31,31 +31,94 @@ img{
 
 }
 
-#section1{
+#section2{
 
-    height: 100vh;
-    background-color: darkkhaki;
+    background-color:  darkslateblue;
+    padding: 100px 80px 0px;
+    overflow-x: hidden;
 
 }
 
-#section2{
+#section2 .imagem{
 
-    height: 100vh;
-    background-color: darkseagreen;
+    max-height: 250px; 
+
+}
+
+.esquerda, .direita{
+
+    display: flex;
+    padding-bottom: 200px;
+    text-align: justify;
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+.esquerda{
+
+    opacity: 0;
+
+}
+
+.direita{
+
+    opacity: 0;
+
+}
+
+.esquerda.active{
+
+    animation: esquerda-para-direita 700ms ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+.direita.active{
+
+    animation: direita-para-esquerda 700ms ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+.conteudo{
+
+    width: 100%;
+
+}
+
+.conteudo h1{
+
+    font-size: 2.3em;
+    padding-bottom: 20px;
+
+}
+
+.esquerda .conteudo p{
+
+    font-size: 1.1em;
+    padding-right: 50px;
+
+}
+
+.direita .conteudo h1{
+
+    text-align: right;
+
+}
+
+.direita .conteudo p{
+
+    font-size: 1.1em;
+    padding-left: 50px;
+
 
 }
 
 #section3{
 
     height: 100vh;
-    background-color: darkslategray;
-
-}
-
-#section4{
-
-    height: 100vh;
-    background-color: plum;
+    background-color: midnightblue;
 
 }
 
@@ -71,7 +134,7 @@ footer h1{
 
     text-align: center;
     padding-bottom: 50px;
-    font-size: 2em;
+    font-size: 3em;
 
 }
 
@@ -80,7 +143,7 @@ form{
     width: 40%;
     background-color: slateblue;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.521);
     margin: auto;
     max-width: 800px;
     padding: 20px;

@@ -36,3 +36,38 @@ function enviar() {
     }
 
 }
+
+window.addEventListener('scroll',reveal);
+
+function reveal(){
+    
+    var revealsE = document.querySelectorAll('.esquerda');
+    var revealsD = document.querySelectorAll('.direita');
+
+    for(var i = 0 ; i < revealsE.length;i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = revealsE[i].getBoundingClientRect().top;
+
+        if(revealtop < windowheight - 150){
+
+            revealsE[i].classList.add('active');
+
+        }
+
+    }
+
+    for(var i = 0 ; i < revealsD.length;i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = revealsD[i].getBoundingClientRect().top;
+
+        if(revealtop < windowheight - 150){
+
+            revealsD[i].classList.add('active');
+
+        }
+
+    }
+
+}
