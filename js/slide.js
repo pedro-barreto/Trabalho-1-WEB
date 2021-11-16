@@ -1,4 +1,4 @@
-var intervalo = 2;
+var intervalo = 3;
 
 function imagem1() {
     
