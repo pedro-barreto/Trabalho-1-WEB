@@ -14,7 +14,7 @@ body{
 header{
 
     height: 100vh;
-    background-color: cornflowerblue;
+    background-color: #021D40;
 
 }
 
@@ -39,7 +39,7 @@ img{
 
 #section2{
 
-    background-color:  darkslateblue;
+    background-color:  #032859;
     padding: 100px 80px 0px;
     overflow: hidden;
 
@@ -49,7 +49,8 @@ img{
 
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    color: #89BAD9;
 
 }
 
@@ -65,6 +66,7 @@ img{
     padding-bottom: 200px;
     max-width: 1500px;
     margin: auto;
+    color: #5377A6;
 
 }
 
@@ -112,6 +114,7 @@ img{
 
     font-size: 1.1em;
     padding-right: 50px;
+    color: #6997BF;
 
 }
 
@@ -119,13 +122,13 @@ img{
 
     font-size: 1.1em;
     padding-left: 50px;
-
+    color: #6997BF;
 
 }
 
 #section3{
 
-    background-color: midnightblue;
+    background-color: #021D40;
     padding-bottom: 100px;
 
 }
@@ -135,7 +138,7 @@ img{
     text-align: center;
     padding: 50px;
     font-size: 2.5em;
-    color: white;
+    color: #89BAD9;
 
 }
 
@@ -151,9 +154,13 @@ img{
 #section3 .card{
 
     margin: 50px auto;
+    padding: 0px 10px;
     height: 400px;
     width: 400px;
-    background-color: floralwhite;
+    background-color: #6997BF;
+    color: #021D40;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.281);
 
 }
 
@@ -182,22 +189,22 @@ img{
     font-size: 1.1em;
     height: 50px;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.692);
 
 }
 
 #section3 .card input:hover{
 
     transform: scale(0.9);
-    background-color: black;
+    background-color: #5377A6;
     color: white;
 
 }
 
 footer{
 
-    background-color: rgb(47, 65, 119);
-    color: white;
+    background-color: #032859;
     padding: 50px 0px 100px 0px;
 
 }
@@ -207,18 +214,21 @@ footer h1{
     text-align: center;
     padding-bottom: 50px;
     font-size: 3em;
+    color: #89BAD9;
 
 }
 
 form{
 
     width: 40%;
-    background-color: slateblue;
+    background-color: #6997BF;
+    color: #032859;
     border-radius: 10px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.521);
     margin: auto;
     max-width: 800px;
     padding: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.281);
 
 }
 
@@ -232,6 +242,7 @@ form input, textarea, button{
 
     border: solid 2px black;
     margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.541);
 
 }
 
@@ -305,7 +316,5 @@ button{
 button:hover{
 
     transform: scale(0.9);
-    background-image: linear-gradient(to right, rgba(45, 22, 129, 0.801),rgba(13, 63, 202, 0.884));
-    color: white;
 
 }
