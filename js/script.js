@@ -7,6 +7,13 @@ var formulario = document.getElementsByTagName('form')[0];
 
 function enviar() {
 
+    if(nome.value !== '' && sobrenome.value !== '' && telefone.value !== '' &&
+      email.value !== '' && descricao.value !== ''){
+
+        window.alert('Dados enviados!');
+
+    }
+
     const verificar = [...document.querySelectorAll('.campo')];
 
     verificar.forEach(field =>{
