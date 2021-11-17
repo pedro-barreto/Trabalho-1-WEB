@@ -81,6 +81,18 @@
 
 @media screen and (max-width:870px) {
 
+    .slide{
+
+		height: 500px;
+
+	}
+
+    #slide1{
+
+        src: local("img/slide/1 - reduzida.jpg");
+
+    }
+
     #section2{
 
         padding: 0px 20px;

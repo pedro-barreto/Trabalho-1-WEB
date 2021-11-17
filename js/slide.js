@@ -1,22 +1,70 @@
-var intervalo = 3;
+const slide = document.querySelectorAll('.slide');
+const dot = document.querySelectorAll('.dot');
+let counter = 1;
 
-function imagem1() {
-    
-    document.getElementById('imagem-slide').src = 'img/slide/1.jpg';
-    setTimeout('imagem2()',intervalo * 1000);
+slidefun(counter);
 
-}
+let timer = setInterval(autoSlide, 5000);
 
-function imagem2() {
-    
-    document.getElementById('imagem-slide').src = 'img/slide/2.jpg';
-    setTimeout('imagem3()',intervalo * 1000);
+	function autoSlide() {
 
-}
+		counter += 1;
+		slidefun(counter);
 
-function imagem3() {
-    
-    document.getElementById('imagem-slide').src = 'img/slide/3.jpg';
-    setTimeout('imagem1()',intervalo * 1000);
+	}
 
-}
+	function plusSlides(n) {
+
+		counter += n;
+		slidefun(counter);
+		resetTimer();
+
+	}
+
+	function currentSlide(n) {
+
+		counter = n;
+		slidefun(counter);
+		resetTimer();
+
+	}
+
+	function resetTimer() {
+
+		clearInterval(timer);
+		timer = setInterval(autoSlide, 5000);
+
+	}
+
+	function slidefun(n) {
+		
+		let i;
+
+		for(i = 0;i<slide.length;i++){
+
+			slide[i].style.display = "none";
+
+		}
+
+		for(i = 0;i<dot.length;i++) {
+
+			dot[i].className = dot[i].className.replace(' active', '');
+
+		}
+
+		if(n > slide.length){
+
+			counter = 1;
+
+		}
+
+		if(n < 1){
+
+			counter = slide.length;
+
+		}
+
+		slide[counter - 1].style.display = "block";
+		dot[counter - 1].className += " active";
+		
+	}

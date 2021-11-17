@@ -10,17 +10,60 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slide.css">
 
 </head>
-<body onload="imagem1()">
+<body>
 
     <header>
             
-        <div id="slide">
-    
-            <img src="img/slide/1.jpg" id="imagem-slide">
-        
-        </div>
+        <div class="slider">
+
+		<div class="slide">
+
+			<picture>
+
+                <source srcset="img/slide/1.jpg" media="(min-width: 870px)"/>
+                <img src="img/slide/1 - reduzida.jpg" alt="Imagem 1 do Slide"/>
+
+              </picture>
+
+		</div>
+		
+		<div class="slide">
+
+			<picture>
+
+                <source srcset="img/slide/2.jpg" media="(min-width: 870px)"/>
+                <img src="img/slide/2 - reduzida.jpg" alt="Imagem 1 do Slide"/>
+
+              </picture>
+
+		</div>
+		
+		<div class="slide">
+
+			<picture>
+
+                <source srcset="img/slide/3.jpg" media="(min-width: 870px)"/>
+                <img src="img/slide/3 - reduzida.jpg" alt="Imagem 1 do Slide"/>
+
+              </picture>
+
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox">
+
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			
+		</div>
+
+	</div>
 
     </header>
 
