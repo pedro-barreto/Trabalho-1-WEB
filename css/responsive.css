@@ -43,7 +43,7 @@
     
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
 
     #section2 .conteudo p{
 
@@ -84,6 +84,12 @@
     #section2{
 
         padding: 0px 20px;
+
+    }
+
+    #section2 #titulo-secao2{
+
+        margin-top: 100px;
 
     }
 
