@@ -1,30 +1,30 @@
 const slide = document.querySelectorAll('.slide');
-const dot = document.querySelectorAll('.dot');
-let counter = 1;
+const btn = document.querySelectorAll('.btn');
+let cont = 1;
 
-slidefun(counter);
+slidefun(cont);
 
 let timer = setInterval(autoSlide, 5000);
 
 	function autoSlide() {
 
-		counter += 1;
-		slidefun(counter);
+		cont += 1;
+		slidefun(cont);
 
 	}
 
 	function plusSlides(n) {
 
-		counter += n;
-		slidefun(counter);
+		cont += n;
+		slidefun(cont);
 		resetTimer();
 
 	}
 
 	function currentSlide(n) {
 
-		counter = n;
-		slidefun(counter);
+		cont = n;
+		slidefun(cont);
 		resetTimer();
 
 	}
@@ -46,25 +46,25 @@ let timer = setInterval(autoSlide, 5000);
 
 		}
 
-		for(i = 0;i<dot.length;i++) {
+		for(i = 0;i < btn.length ; i++) {
 
-			dot[i].className = dot[i].className.replace(' active', '');
+			btn[i].className = btn[i].className.replace(' active', '');
 
 		}
 
 		if(n > slide.length){
 
-			counter = 1;
+			cont = 1;
 
 		}
 
 		if(n < 1){
 
-			counter = slide.length;
+			cont = slide.length;
 
 		}
 
-		slide[counter - 1].style.display = "block";
-		dot[counter - 1].className += " active";
+		slide[cont - 1].style.display = "block";
+		btn[cont - 1].className += " active";
 		
 	}

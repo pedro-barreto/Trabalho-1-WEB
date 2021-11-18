@@ -1,17 +1,10 @@
-@media screen and (min-width:1500px){
+@media screen and (max-width:400px){
 
-    #slide{
+    .dot{
 
-        position: absolute;
-        top: 0; bottom: 0;
-        left: 0; right: 0;
-        margin: auto;
+       margin: 0 1px;
 
     }
-    
-}
-
-@media screen and (max-width:400px){
 
     #section2 .conteudo{
 
@@ -80,18 +73,6 @@
 }
 
 @media screen and (max-width:870px) {
-
-    .slide{
-
-		height: 500px;
-
-	}
-
-    #slide1{
-
-        src: local("img/slide/1 - reduzida.jpg");
-
-    }
 
     #section2{
 
