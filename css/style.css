@@ -223,6 +223,7 @@ header #slide{
     transform: scale(0.9);
     background-color: #5377A6;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -343,5 +344,6 @@ button:hover{
     transform: scale(0.9);
     background-color: #5377A6;
     color: white;
+    cursor: pointer;
 
 }
