@@ -48,7 +48,7 @@ let timer = setInterval(autoSlide, 5000);
 
 		for(i = 0;i < btn.length ; i++) {
 
-			btn[i].className = btn[i].className.replace('active', '');
+			btn[i].className = btn[i].className.replace(' active', '');
 
 		}
 
@@ -65,6 +65,6 @@ let timer = setInterval(autoSlide, 5000);
 		}
 
 		slide[cont - 1].style.display = "block";
-		btn[cont - 1].className += "active";
+		btn[cont - 1].className += " active";
 		
 	}

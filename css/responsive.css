@@ -66,6 +66,24 @@
 
 }
 
+@media screen and (max-width:750px) {
+
+    .sldier{
+
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .slide{
+
+        height: 100vh;        
+
+    }
+
+}
+
 @media screen and (max-width:870px) {
 
     #section2{
