@@ -1,11 +1,15 @@
+//VARIAVEIS BOTÃO DO SLIDE
 const slide = document.querySelectorAll('.slide');
 const btn = document.querySelectorAll('.btn');
+//CONT DO SLIDE PARA DETECTAR QUAL SLIDE ESTA
 let cont = 1;
 
 slidefun(cont);
 
+//TEMPO PARA CADA SLIDE PASSAR. 5 SEGUNDOS
 let timer = setInterval(autoSlide, 5000);
 
+	//FUNÇÃO PARA O SLIDE PASSAR SOZINHO
 	function autoSlide() {
 
 		cont += 1;
@@ -13,6 +17,7 @@ let timer = setInterval(autoSlide, 5000);
 
 	}
 
+	//SETAS
 	function plusSlides(n) {
 
 		cont += n;
@@ -21,6 +26,7 @@ let timer = setInterval(autoSlide, 5000);
 
 	}
 
+	//BOTÕES
 	function currentSlide(n) {
 
 		cont = n;
@@ -29,6 +35,7 @@ let timer = setInterval(autoSlide, 5000);
 
 	}
 
+	//FUNÇÃO PARA EVITAR DE PASSAR 4s E QUANDO CLICAR NESSE TEMPO NÃO PASSAR 2 SLIDES DE UMA VEZ
 	function resetTimer() {
 
 		clearInterval(timer);
@@ -36,6 +43,7 @@ let timer = setInterval(autoSlide, 5000);
 
 	}
 
+	//LOGICA
 	function slidefun(n) {
 		
 		let i;

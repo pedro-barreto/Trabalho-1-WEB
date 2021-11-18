@@ -1,3 +1,4 @@
+/*CLASSE QUE VAI SER ADICIONADA CASO ALGUM CAMPO DO FORMULARIO ESTEJA VAZIO*/
 .validar-campo{
 
     animation: campo-vazio 100ms linear;
@@ -5,6 +6,7 @@
 
 }
 
+/*ANIMAÇÃO DO CAMPO VAZIO*/
 @keyframes campo-vazio {
 
     0%,100%{
@@ -23,6 +25,7 @@
     
 }
 
+/*ANIMAÇÃO DA SEÇÃO 2, ONDE O CONTEUDO VEM DA ESQUERDA PARA DIREITA*/
 @keyframes esquerda-para-direita {
     
     from{
@@ -39,6 +42,7 @@
 
 }
 
+/*ANIMAÇÃO DA SEÇÃO 2, ONDE O CONTEUDO VEM DA DIREITA PARA ESQUERDA*/
 @keyframes direita-para-esquerda {
     
     from{

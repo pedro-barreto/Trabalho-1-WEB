@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    
     <title>Trabalho 1 de WEB</title>
 
     <link rel="stylesheet" href="css/style.css">
@@ -15,260 +17,373 @@
 </head>
 <body>
 
+    <!--INICIO DO HOVER/SEÇÃO 1-->
     <header>
-            
+         
+        <!--CLASSE PRINCIPAL DO SLIDE-->
         <div class="slider">
 
-		<div class="slide">
+            <!--CLASSE SLIDE SEPARADO POR IMAGEM-->
+            <div class="slide">
 
-			<picture>
+                <!--LOCAL DAS IMAGENS-->
+                <picture>
 
-                <source srcset="img/slide/1grande.jpg" media="(min-width: 750px)"/>
-                <source srcset="img/slide/1media.jpg" media="(min-width: 450px)"/>
-                <img src="img/slide/1pequena.jpg" alt="Imagem 1 do Slide"/>
+                    <!--MEDIA QUERY PARA AJUSTAR A IMAGEM E DIMINUIR A RESOLUÇÃO(TROCAR DE IMAGEM)-->
+                    <source srcset="img/slide/1grande.jpg" media="(min-width: 750px)"/>
+                    <source srcset="img/slide/1media.jpg" media="(min-width: 450px)"/>
+                    <img src="img/slide/1pequena.jpg" alt="Imagem 1 do Slide"/>
 
-              </picture>
+                </picture>
+                <!--FIM DO LOCAL DAS IMAGENS-->
 
-		</div>
-		
-		<div class="slide">
+            </div>
+            <!--FIM DA PRIMEIRA CLASSE SLIDE-->
 
-			<picture>
+            <!--CLASSE SLIDE SEPARADO POR IMAGEM-->
+            <div class="slide">
 
-                <source srcset="img/slide/2grande.jpg" media="(min-width: 750px)"/>
-                <source srcset="img/slide/2media.jpg" media="(min-width: 450px)"/>
-                <img src="img/slide/2pequena.jpg" alt="Imagem 2 do Slide"/>
+                <!--LOCAL DAS IMAGENS-->
+                <picture>
 
-              </picture>
+                    <!--MEDIA QUERY PARA AJUSTAR A IMAGEM E DIMINUIR A RESOLUÇÃO(TROCAR DE IMAGEM)-->
+                    <source srcset="img/slide/2grande.jpg" media="(min-width: 750px)"/>
+                    <source srcset="img/slide/2media.jpg" media="(min-width: 450px)"/>
+                    <img src="img/slide/2pequena.jpg" alt="Imagem 2 do Slide"/>
 
-		</div>
-		
-		<div class="slide">
+                </picture>
+                <!--FIM DO LOCAL DAS IMAGENS-->
 
-			<picture>
+            </div>
+            <!--FIM DA SEGUNDA CLASSE SLIDE-->
+            
+            <!--CLASSE SLIDE SEPARADO POR IMAGEM-->
+            <div class="slide">
 
-                <source srcset="img/slide/3grande.jpg" media="(min-width: 750px)"/>
-                <source srcset="img/slide/3media.jpg" media="(min-width: 450px)"/>
-                <img src="img/slide/3pequena.jpg" alt="Imagem 3 do Slide"/>
+                <!--LOCAL DAS IMAGENS-->
+                <picture>
 
-              </picture>
+                    <!--MEDIA QUERY PARA AJUSTAR A IMAGEM E DIMINUIR A RESOLUÇÃO(TROCAR DE IMAGEM)-->
+                    <source srcset="img/slide/3grande.jpg" media="(min-width: 750px)"/>
+                    <source srcset="img/slide/3media.jpg" media="(min-width: 450px)"/>
+                    <img src="img/slide/3pequena.jpg" alt="Imagem 3 do Slide"/>
 
-		</div>
+                </picture>
+                <!--FIM DO LOCAL DAS IMAGENS-->
 
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		
-		<div class="btn-slide">
+            </div>
+            <!--FIM DA TERCEIRA CLASSE SLIDE-->
 
-			<span class="btn" onclick="currentSlide(1)"></span>
-			<span class="btn" onclick="currentSlide(2)"></span>
-			<span class="btn" onclick="currentSlide(3)"></span>
-			
-		</div>
+            <!--SETAS PARA PASSAR OU VOLTAR O SLIDE-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!--FIM DAS SETAS-->
+            
+            <!--BOTÕES RADIO QUE IRÁ PARA POSIÇÃO DE UM SLIDE-->
+            <div class="btn-slide">
 
-	</div>
+                <span class="btn" onclick="currentSlide(1)"></span>
+                <span class="btn" onclick="currentSlide(2)"></span>
+                <span class="btn" onclick="currentSlide(3)"></span>
+                
+            </div>
+            <!--FIM DOS BOTÕES-->
+
+	    </div>
+        <!--FIM DA CLASSE PRINCIPAL SLIDE-->
 
     </header>
+    <!--FIM DO HOVER/SEÇÃO 1-->
 
+    <!--INICIO DO MAIN QUE CONTEM A SEÇÃO 2 E 3-->
     <main>
 
+        <!--INICIO DA SEÇÃO 2-->
         <section id="section2">
             
+            <!--TITULO DA SEÇÃO 2-->
             <h1 id="titulo-secao2">SAIBA UM POUCO SOBRE NÓS</h1>
 
+            <!--ÁREA DO CONTEUDO GERAL-->
             <div class="esquerda">
 
+                <!--CONTEUDO TEXTO-->
                 <div class="conteudo">
 
+                    <!--TITULO-->
                     <h1>Título aleatório 1</h1>
+                    <!--PARAGRAFO-->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate incidunt eos nihil hic? Alias vel saepe minima corporis eum quia, illo sint nobis est dicta totam numquam porro explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, non ipsam quod itaque similique cupiditate! Magnam reprehenderit voluptates animi molestiae vero ea, corporis labore itaque laborum voluptatibus, alias voluptate fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit at esse recusandae mollitia ab eius dolorum alias. Cumque praesentium fugiat fugit possimus ducimus eaque blanditiis vero neque quas nulla?</p>
 
                 </div>
+                <!--FIM DO CONTEUDO TEXTO-->
 
+                <!--CONTEUDO IMAGEM-->
                 <div class="imagem">
 
+                    <!--IMAGEM-->
                     <img src="img/section2/img1-secao2.png" alt="Imagem da secao 2">
 
                 </div>
+                <!--FIM DO CONTEUDO IMAGEM-->
 
             </div>
+            <!--FIM DA ÁREA DO CONTEUDO GERAL-->
 
+            <!--ÁREA DO CONTEUDO GERAL-->
             <div class="direita">
                 
+                <!--CONTEUDO IMAGEM-->
                 <div class="imagem">
 
+                    <!--IMAGEM-->
                     <img src="img/section2/img2-secao2.jpg" alt="Imagem da secao 2">
 
                 </div>
+                <!--FIM DO CONTEUDO IMAGEM-->
 
+                <!--CONTEUDO TEXTO-->
                 <div class="conteudo">
 
+                    <!--TITULO-->
                     <h1>Título aleatório 2</h1>
+                    <!--PARAGRAFO-->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate incidunt eos nihil hic? Alias vel saepe minima corporis eum quia, illo sint nobis est dicta totam numquam porro explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, non ipsam quod itaque similique cupiditate! Magnam reprehenderit voluptates animi molestiae vero ea, corporis labore itaque laborum voluptatibus, alias voluptate fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit at esse recusandae mollitia ab eius dolorum alias. Cumque praesentium fugiat fugit possimus ducimus eaque blanditiis vero neque quas nulla?</p>
 
                 </div>
+                <!--FIM DO CONTEUDO TEXTO-->
 
             </div>
+            <!--FIM DA ÁREA DO CONTEUDO GERAL-->
             
+            <!--ÁREA DO CONTEUDO GERAL-->
             <div class="esquerda">
 
+                <!--CONTEUDO TEXTO-->
                 <div class="conteudo">
 
+                    <!--TITULO-->
                     <h1>Título aleatório 3</h1>
+                    <!--PARAGRAFO-->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptate incidunt eos nihil hic? Alias vel saepe minima corporis eum quia, illo sint nobis est dicta totam numquam porro explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, non ipsam quod itaque similique cupiditate! Magnam reprehenderit voluptates animi molestiae vero ea, corporis labore itaque laborum voluptatibus, alias voluptate fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit at esse recusandae mollitia ab eius dolorum alias. Cumque praesentium fugiat fugit possimus ducimus eaque blanditiis vero neque quas nulla?</p>
 
                 </div>
+                <!--FIM DO CONTEUDO TEXTO-->
 
+                <!--CONTEUDO IMAGEM-->
                 <div class="imagem">
 
+                    <!--IMAGEM-->
                     <img src="img/section2/img3-secao2.jpg" alt="Imagem da secao 2">
 
                 </div>
+                <!--FIM DO CONTEUDO IMAGEM-->
 
             </div>
+            <!--FIM DA ÁREA DO CONTEUDO GERAL-->
         
         </section>
+        <!--FIM DA SEÇÃO 2-->
+
+        <!--INICIO DA SEÇÃO 3-->
         <section id="section3">
             
+            <!--TITULO DA SEÇÃO 3-->
             <h1>VEJA NOSSOS CURSOS</h1>
 
+            <!--CLASSE DOS CARDS GERAIS-->
             <div class="cards">
 
+                <!--CARD 1-->
                 <div class="card">
 
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de HTML</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso1.png" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 1-->
 
+                <!--CARD 2-->
                 <div class="card">
 
+                    <!--CLASSE DO CARD-->
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de CSS</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso2.jpg" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 2-->
 
+                <!--CARD 3-->
                 <div class="card">
 
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de JavaScript</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso3.jpg" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 3-->
 
+                <!--CARD 4-->
                 <div class="card">
 
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de React JS</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso4.jpg" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 4-->
 
+                <!--CARD 5-->
                 <div class="card">
 
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de Scrum</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso5.png" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 5-->
 
+                <!--CARD 6-->
                 <div class="card">
 
                     <div class="card-conteudo">
 
+                        <!--TITULO DO CARD-->
                         <h2>Curso de Resposividade</h2>
+                        <!--IMAGEM COM UM LINK-->
                         <a href="#"><img src="img/section3/curso6.jpg" alt="Produto"></a>
+                        <!--BOTÃO COMPRAR-->
                         <div class="botao-comprar"><input type="button" value="Comprar"></div>
 
                     </div>
 
                 </div>
+                <!--FIM DO CARD 6-->
 
             </div>
+            <!--FIM DA CLASSE DOS CARDS GERAIS-->
         
         </section>
+        <!--FIM DA SEÇÃO 3-->
 
     </main>
+    <!--FIM DO MAIN-->
 
+    <!--INICIO DO FOOTER/SEÇÃO 4-->
     <footer>
 
+        <!--TITULO DO FOOTER/SEÇÃO 4-->
         <h1>Fale conosco</h1>
 
+        <!--INICIO FORMULARIO-->
         <form action="#">
 
+            <!--CLASSE LADO A LADO PARA DEIXA NOME E SOBRENOME DE LADO-->
             <div class="lado-a-lado">
 
+                <!--INICIO NOME-->
                 <div id="nome">
 
                     <label for="cmpNome">Nome</label>
                     <input type="text" name="nome" id="cmpNome" class="campo" required>
     
                 </div>
-    
+                <!--FIM NOME-->
+                
+                <!--INICIO SOBRENOME-->
                 <div id="sobrenome">
     
                     <label for="cmpSobrenome">Sobrenome</label>
                     <input type="text" name="sobrenome" id="cmpSobrenome" class="campo" required>
     
                 </div>
+                <!--FIM SOBRENOME-->
 
-            </div> 
+            </div>
+            <!--FIM CLASSE LADO A LADO-->
 
+            <!--INICIO TELEFONE-->
             <div id="telefone">
 
                 <label for="cmpTelefone">Telefone</label>
                 <input type="number" name="telefone" id="cmpTelefone" class="campo" required>
 
             </div>
+            <!--FIM TELEFONE-->
 
+            <!--INICIO EMAIL-->
             <div id="email">
 
                 <label for="cmpEmail">E-mail</label>
                 <input type="email" name="email" id="cmpEmail" class="campo" required>
 
             </div>
+            <!--FIM EMAIL-->
 
+            <!--INICIO DESCRIÇÃO-->
             <div id="descricao">
 
                 <label for="cmpDescricao">Assunto</label>
                 <textarea name="descricao" id="cmpDescricao" rows="10" class="campo" required></textarea>
 
             </div>
+            <!--FIM DESCRIÇÃO-->
 
+            <!--BOTÃO ENVIAR SUGESTÃO-->
             <div id="botao">
 
                 <button type="submit" onclick="enviar()">Enviar</button>
 
             </div>
+            <!--FIM DO BOTÃO ENVIAR SUGESTÃO-->
 
         </form>
+        <!--FIM DO FORMULARIO-->
 
     </footer>
+    <!--FIM DO FOOTER/SEÇÃO 4-->
 
+    <!--LINK DOS SCRIPTS DO FORMULARIO(FOOTER) E SCRIPT DO SLIDE-->
     <script src="js/script.js"></script>
     <script src="js/slide.js"></script>
+    <!--FIM DOS SCRIPTS-->
     
 </body>
 </html>

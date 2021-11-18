@@ -1,3 +1,4 @@
+//VARIAVEIS DO FOMULARIO
 var nome = document.getElementById('cmpNome');
 var sobrenome = document.getElementById('cmpSobrenome');
 var telefone = document.getElementById('cmpTelefone');
@@ -5,6 +6,7 @@ var email = document.getElementById('cmpEmail');
 var descricao = document.getElementById('cmpDescricao');
 var formulario = document.getElementsByTagName('form')[0];
 
+//FUNÇÃO EXECUTADO APOS CLICAR NO ENVIAR DO FOMULARIO
 function enviar() {
 
     if(nome.value !== '' && sobrenome.value !== '' && telefone.value !== '' &&
@@ -44,6 +46,7 @@ function enviar() {
 
 }
 
+//DETECÇÃO DO SCROOL NA SEÇÃO 2
 window.addEventListener('scroll',reveal);
 
 function reveal(){

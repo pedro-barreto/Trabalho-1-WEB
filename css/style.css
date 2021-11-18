@@ -21,6 +21,7 @@ img{
 
 }
 
+/*INICIO DO HEADER/SEÇÃO 1*/
 header{
 
     width: 100%;
@@ -51,6 +52,9 @@ header #slide{
 
 }
 
+/*FIM DO HEADER/SEÇÃO 1*/
+
+/*INICIO DA SEÇÃO 2*/
 #section2{
 
     background-color:  #032859;
@@ -146,7 +150,9 @@ header #slide{
     font-family: 'Flow Block', cursive;
 
 }
+/*FIM DA SEÇÃO 2*/
 
+/*INICIO DA SEÇÃO 3*/
 #section3{
 
     background-color: #021D40;
@@ -229,7 +235,9 @@ header #slide{
     cursor: pointer;
 
 }
+/*FIM DA SEÇÃO 3*/
 
+/*INICIO DO FOOTER/SEÇÃO 4*/
 footer{
 
     background-color: #032859;
@@ -350,3 +358,4 @@ button:hover{
     cursor: pointer;
 
 }
+/*FIM DO FOOTER/SEÇÃO 4*/
