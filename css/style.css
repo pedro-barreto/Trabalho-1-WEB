@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Flow+Block&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');/*FONTE DOS TITULOS PRINCIPAIS*/
+@import url('https://fonts.googleapis.com/css2?family=Flow+Block&display=swap');/*FONTE DA SEÇÃO 2*/
 
 *{
 
@@ -137,7 +137,7 @@ header #slide{
     padding-right: 50px;
     color: #6997BF;
     line-height: 30px;
-    font-family: 'Flow Block', cursive;
+    font-family: 'Flow Block';
 
 }
 
@@ -147,7 +147,7 @@ header #slide{
     padding-left: 50px;
     color: #6997BF;
     line-height: 30px;
-    font-family: 'Flow Block', cursive;
+    font-family: 'Flow Block';
 
 }
 /*FIM DA SEÇÃO 2*/
